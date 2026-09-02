@@ -6,6 +6,14 @@
   "compatibility_flags": [
     "nodejs_compat"
   ],
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "smart-pickup-board-v2-production-db",
+      "database_id": "26bb3f3b-bce8-4173-a267-f6f2af3a6722",
+      "migrations_dir": "drizzle"
+    }
+  ],
   "main": "./worker/index.ts",
   "assets": {
     "directory": "dist/client",
